@@ -6,13 +6,12 @@ export const ButtonStyle = styled.button `
     color: var(--black);
     font-size: var(--sm);
     font-weight: 600;
-    padding: 16px 12px;
+    padding: 12px;
     border-radius: 4px;
     border: none;
     background-color: var(--cyan500);
-    width: 100vw;
+    width: 100%;
     :hover {
         background-color: var(--cyan300);
-        transition: 1s;
     }
 `

@@ -2,6 +2,7 @@ import React from "react"
 import { GlobalStyle } from "../../GlobalStyle"
 import { InputStyle } from "./style"
 import { Envelope } from "phosphor-react"
+import { Lock } from "phosphor-react"
 
 export function Input(props) {
 
@@ -9,7 +10,7 @@ export function Input(props) {
         <>
             <GlobalStyle/>
             <InputStyle>
-                <Envelope/>
+                {props.icon === "email" ? <Envelope/> : <Lock/>}
                 <input {...props}/>
             </InputStyle>
         </>

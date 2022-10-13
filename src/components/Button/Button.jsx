@@ -3,12 +3,12 @@ import { GlobalStyle } from "../../GlobalStyle"
 import { ButtonStyle } from "./style"
 
 
-export function Button({text}) {
+export function Button({text, type="submit"}) {
 
     return (
         <>
             <GlobalStyle/>
-            <ButtonStyle>{text}</ButtonStyle>
+            <ButtonStyle type={type}>{text}</ButtonStyle>
         </>
     )
 }

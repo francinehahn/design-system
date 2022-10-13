@@ -3,13 +3,13 @@ import { GlobalStyle } from "../../GlobalStyle"
 import { CheckboxStyle } from "./style"
 import { Check } from "phosphor-react"
 
-export function Checkbox() {
+export function Checkbox(props) {
     const [checked, setChecked] = useState(false)
 
     return (
         <>
             <GlobalStyle/>
-            <CheckboxStyle onClick={() => setChecked(!checked)}>
+            <CheckboxStyle onClick={() => setChecked(!checked)} {...props}>
                 {checked && <Check/>}
             </CheckboxStyle>
         </>

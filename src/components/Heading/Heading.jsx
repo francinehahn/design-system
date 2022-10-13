@@ -4,7 +4,7 @@ import { Title } from "./style"
 
 
 //fontSize pode ser sm, md, lg
-export function Heading({text, fontSize='md'}) {
+export function Heading({text, fontSize='md', color="var(--grey100)"}) {
     if(fontSize === 'sm') {
         fontSize = 'var(--lg)'
     } else if (fontSize === 'md') {
@@ -16,7 +16,7 @@ export function Heading({text, fontSize='md'}) {
     return (
         <>
             <GlobalStyle/>
-            <Title font={fontSize}>{text}</Title>
+            <Title font={fontSize} color={color}>{text}</Title>
         </>
     )
 }
