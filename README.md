@@ -11,4 +11,5 @@ This project was developed during the Ignite Lab Event conducted by Rocketseat. 
 ## Figma documentation
 [Figma](https://www.figma.com/file/4r8knyvk7chYIxXfL2D45W/Ignite-Lab-Design-System)
 
-## Installing
+## Storybook documentation
+[Storybook](https://francinehahn.github.io/design-system/?path=/story/components-button--default)
