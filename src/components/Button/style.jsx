@@ -8,6 +8,7 @@ export const ButtonStyle = styled.button `
     font-weight: 600;
     padding: 16px 12px;
     border-radius: 4px;
+    border: none;
     background-color: var(--cyan500);
     width: 100vw;
     :hover {
