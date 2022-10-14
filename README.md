@@ -6,6 +6,9 @@ This project was developed during the Ignite Lab Event conducted by Rocketseat. 
 * Styled-components
 * HTML
 * Storybook
+* Storybook Jest
+* Storybook Testing Library
+* Mock Service Worker Storybook Addon
 * React
 
 ## Figma documentation
@@ -13,3 +16,20 @@ This project was developed during the Ignite Lab Event conducted by Rocketseat. 
 
 ## Storybook documentation
 [Storybook](https://francinehahn.github.io/design-system/?path=/story/components-button--default)
+
+## Installing
+<pre>
+  <code>$ git clone https://github.com/francinehahn/design-system.git</code>
+</pre>
+
+<pre>
+  <code>$ cd design-system</code>
+</pre>
+
+<pre>
+  <code>$ npm install</code>
+</pre>
+
+<pre>
+  <code>$ npm run storybook</code>
+</pre>
