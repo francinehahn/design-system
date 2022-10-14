@@ -1,0 +1,2 @@
+import{C as t,a as r}from"./Checkbox.39167ade.js";import{T as e}from"./Text.6245ad5b.js";import{a as s,j as a}from"./jsx-runtime.3e775b15.js";import"./index.9c5ad381.js";import"./iframe.942c343f.js";import"./GlobalStyle.7546d07d.js";import"./IconBase.esm.c5377035.js";const f={title:"Components/Checkbox",component:t,args:{},argTypes:{},decorators:[o=>s(r,{children:[o(),a(e,{text:"Lembrar de mim por 30 dias",fontSize:"sm"})]})]},C={},b=["Default"];export{C as Default,b as __namedExportsOrder,f as default};
+//# sourceMappingURL=Checkbox.stories.4bddb89b.js.map

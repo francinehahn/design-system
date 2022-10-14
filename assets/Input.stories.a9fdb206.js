@@ -1,0 +1,2 @@
+import{I as t}from"./Input.1bc0d22c.js";import"./index.9c5ad381.js";import"./iframe.942c343f.js";import"./GlobalStyle.7546d07d.js";import"./jsx-runtime.3e775b15.js";import"./IconBase.esm.c5377035.js";const m={title:"Components/Input",component:t,args:{placeholder:"Digite o seu e-mail"},argTypes:{}},n={},a=["Default"];export{n as Default,a as __namedExportsOrder,m as default};
+//# sourceMappingURL=Input.stories.a9fdb206.js.map
